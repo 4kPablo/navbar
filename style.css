@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
     background-color: rgb(66, 8, 120);
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,25 +11,24 @@
 .nav-container {
     display: flex;
     height: 100px;
-    background-color: violet;
+    background-color: #171a21;
     justify-content:space-between;
+    padding: 0 25vw;
 }
 
 .nav-item {
     display: flex;
     outline: solid red 1px;
     align-items: center;
+    text-align: center;
+    
 }
 
 .nav-subitem {
-    outline: solid yellow 2px;
-    align-items: center; 
+    outline: solid yellow 1px;
     width: 100px;
-    height: 100px;
-}
-
-.nav-subitem img {
-    outline: solid yellow 2px;
-    width: 50px;
     height: 50px;
+    font-size: 15px;
+    color: #c5c3c0;
+    margin: auto;
 }
